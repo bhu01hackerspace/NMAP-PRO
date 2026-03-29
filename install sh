@@ -1,9 +1,29 @@
-# Clone o repositório
-git clone https://github.com/bhu01hackerspace/nmap-pro.git
-cd nmap-pro
+#!/bin/bash
 
-# Dê permissão de execução
-chmod +x nmap_pro.sh
+# Script de instalação automática
+# ================================
 
-# Execute
-./nmap_pro.sh
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m'
+
+echo "🔧 Instalando NMAP PRO..."
+
+# Verifica se nmap está instalado
+if ! command -v nmap &> /dev/null; then
+    echo -e "${RED}❌ Nmap não encontrado. Instalando...${NC}"
+    sudo apt update
+    sudo apt install nmap -y
+fi
+
+# Copia para /usr/local/bin
+sudo cp nmap_pro.sh /usr/local/bin/nmap-pro
+sudo chmod +x /usr/local/bin/nmap-pro
+
+# Cria diretório de logs
+mkdir -p ~/nmap_pro_logs
+
+echo -e "${GREEN}✅ Instalação concluída!${NC}"
+echo ""
+echo "Para executar: nmap-pro"
+echo "Ou: ./nmap_pro.sh"

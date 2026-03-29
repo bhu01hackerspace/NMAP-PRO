@@ -1,5 +1,7 @@
 🔥 NMAP PRO
 
+<img src="https://skillicons.dev/icons?i=bash,linux,git,github" />
+
 Scanner avançado baseado em Nmap com automação, menus interativos e foco em produtividade para recon e pentest.
 
 🚀 Funcionalidades

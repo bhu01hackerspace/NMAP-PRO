@@ -1,0 +1,24 @@
+# Logs
+*.log
+*.txt
+*.xml
+*.html
+*.grep
+nmap_pro_logs/
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+temp/
+tmp/

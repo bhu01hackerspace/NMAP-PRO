@@ -1,45 +1,33 @@
-🔥 NMAP PRO
+# 🔍 NMAP PRO - Scanner de Rede Profissional
 
-<img src="https://skillicons.dev/icons?i=bash,linux,git,github" />
+[![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/seu-usuario/nmap-pro)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Bash](https://img.shields.io/badge/shell-bash-4EAA25.svg)](https://www.gnu.org/software/bash/)
 
-Scanner avançado baseado em Nmap com automação, menus interativos e foco em produtividade para recon e pentest.
+Ferramenta profissional para scanning de redes e auditoria de segurança com Nmap. Interface interativa em português com múltiplas funcionalidades avançadas.
 
-🚀 Funcionalidades
+## ✨ Características
 
-- Scan rápido e completo
-- Modo stealth (SYN)
-- Detecção de serviços e SO
-- Scripts NSE automáticos
-- Scan de vulnerabilidades
-- Exportação de resultados
-- Interface interativa
+- 🚀 **Scan rápido** - Top 100 portas com alta performance
+- 🔍 **Descoberta completa** - Todas as 65535 portas
+- 🕵️ **Stealth mode** - SYN scan para evasão
+- 🔧 **Detecção avançada** - Serviços, versões e SO
+- 🛡️ **Vulnerabilidades** - Scan de CVEs e exploits
+- 📊 **Múltiplos formatos** - Exporta em TXT, XML, HTML
+- 📝 **Logs organizados** - Histórico com timestamps
+- 🎨 **Interface colorida** - Experiência visual profissional
 
-⚙️ Requisitos
+## 📋 Pré-requisitos
 
-- nmap
-- bash
-- sudo (para algumas funções)
+- Linux (Ubuntu/Debian/Kali/Parrot/Termux)
+- Nmap instalado
+- Sudo para scans avançados
 
-🛠️ Instalação
+## 🚀 Instalação
 
-git clone https://github.com/bhu01hackerspace/NMAP-PRO.git
+### Instalação rápida
+```bash
+git clone https://github.com/bhu01hackerspace/nmap-pro.git
 cd nmap-pro
-chmod +x nmap-pro.sh
-./nmap-pro.sh
-
-🧪 Uso
-
-Execute:
-
-./nmap-pro.sh
-
-Escolha a opção no menu e insira o alvo.
-
-⚠️ Aviso Legal
-
-Este projeto é para fins educacionais e de segurança ofensiva em ambientes autorizados.
-O uso indevido é de total responsabilidade do usuário.
-
-👨‍💻 Autor
-
-bhu01hackerspace
+chmod +x install.sh
+./install.sh
